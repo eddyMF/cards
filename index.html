@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+<title>AV/RENT SRL — Team</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#111;min-height:100vh;font-family:'Barlow',sans-serif;-webkit-font-smoothing:antialiased}
+body{display:flex;flex-direction:column;align-items:center;padding-bottom:3rem}
+.hero{width:100%;background:#0d0d0d;border-bottom:2px solid #E8611A;padding:2.5rem 1.5rem 2rem;display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(232,97,26,0.04) 60px,rgba(232,97,26,0.04) 61px);pointer-events:none}
+.corner{position:absolute;width:22px;height:22px;border-color:#E8611A;border-style:solid}
+.corner.tl{top:12px;left:12px;border-width:2px 0 0 2px}
+.corner.tr{top:12px;right:12px;border-width:2px 2px 0 0}
+.corner.bl{bottom:12px;left:12px;border-width:0 0 2px 2px}
+.corner.br{bottom:12px;right:12px;border-width:0 2px 2px 0}
+.logo-text{font-family:'Barlow Condensed',sans-serif;font-size:56px;font-weight:900;line-height:1;display:flex;align-items:baseline;position:relative;z-index:1}
+.logo-av{color:#E8611A}.logo-slash{color:#E8611A;font-weight:300;margin:0 3px}.logo-rent{color:#fff}.logo-srl{font-size:20px;font-weight:700;color:#E8611A;margin-left:8px;letter-spacing:1px}
+.logo-sub{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:300;letter-spacing:7px;color:rgba(255,255,255,0.4);text-transform:uppercase;margin-top:6px;position:relative;z-index:1}
+.hero-divider{width:50px;height:1px;background:#E8611A;margin-top:1.2rem;opacity:.5;position:relative;z-index:1}
+.page-title{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:400;letter-spacing:4px;color:rgba(255,255,255,0.35);text-transform:uppercase;margin-top:1rem;position:relative;z-index:1}
+.grid{width:100%;max-width:520px;padding:1.5rem 1.25rem 0;display:flex;flex-direction:column;gap:3px}
+.person-link{display:flex;align-items:center;gap:14px;padding:14px 18px;background:rgba(255,255,255,0.06);border-left:3px solid #E8611A;text-decoration:none;transition:background .15s}
+.person-link:first-child{border-radius:6px 6px 0 0}
+.person-link:last-child{border-radius:0 0 6px 6px}
+.person-link:hover,.person-link:active{background:rgba(255,255,255,0.11)}
+.avatar{width:38px;height:38px;background:rgba(232,97,26,0.15);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:700;color:#E8611A}
+.person-name{font-size:15px;font-weight:500;color:#fff}
+.person-role{font-size:11px;color:rgba(255,255,255,0.4);margin-top:2px;letter-spacing:1px}
+.arrow{margin-left:auto;color:rgba(255,255,255,0.2);font-size:18px}
+.footer{margin-top:2rem;font-family:'Barlow Condensed',sans-serif;font-size:10px;letter-spacing:3px;color:rgba(255,255,255,0.15);text-transform:uppercase}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
+  <div class="logo-text"><span class="logo-av">AV</span><span class="logo-slash">/</span><span class="logo-rent">RENT</span><span class="logo-srl">SRL</span></div>
+  <div class="logo-sub">Audiovisual Hire</div>
+  <div class="hero-divider"></div>
+  <div class="page-title">Il nostro team</div>
+</div>
+<div class="grid">
+  <a class="person-link" href="silvia-aceti"><div class="avatar">SA</div><div><div class="person-name">Silvia Aceti</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="antonio-andrioli"><div class="avatar">AA</div><div><div class="person-name">Antonio Andrioli</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="christian-antozzi"><div class="avatar">CA</div><div><div class="person-name">Christian Antozzi</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="daniela-caliciotti"><div class="avatar">DC</div><div><div class="person-name">Daniela Caliciotti</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="claudia-cerasaro"><div class="avatar">CC</div><div><div class="person-name">Claudia Cerasaro</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="gianluca-ciccoricco"><div class="avatar">GC</div><div><div class="person-name">Gianluca Ciccoricco</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="lorenzo-costanzi"><div class="avatar">LC</div><div><div class="person-name">Lorenzo Costanzi</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="sebastian-cucchetti"><div class="avatar">SC</div><div><div class="person-name">Sebastian Cucchetti</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="nicola-d-amore"><div class="avatar">ND</div><div><div class="person-name">Nicola D'Amore</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="barbara-de-carolis"><div class="avatar">BD</div><div><div class="person-name">Barbara De Carolis</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="angelo-fabrizio-del-signore"><div class="avatar">AD</div><div><div class="person-name">Angelo Fabrizio Del Signore</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="alessandro-desantis"><div class="avatar">AD</div><div><div class="person-name">Alessandro Desantis</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="marco-di-benedetto"><div class="avatar">MB</div><div><div class="person-name">Marco Di Benedetto</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="emiliano-flavi"><div class="avatar">EF</div><div><div class="person-name">Emiliano Flavi</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="federico-garofali"><div class="avatar">FG</div><div><div class="person-name">Federico Garofali</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="marzia-giancarli"><div class="avatar">MG</div><div><div class="person-name">Marzia Giancarli</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="roberto-iafrate"><div class="avatar">RI</div><div><div class="person-name">Roberto Iafrate</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="eleonora-lucidi"><div class="avatar">EL</div><div><div class="person-name">Eleonora Lucidi</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="gabriele-malandruccolo"><div class="avatar">GM</div><div><div class="person-name">Gabriele Malandruccolo</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="giovanni-minici"><div class="avatar">GM</div><div><div class="person-name">Giovanni Minici</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="danilo-paniccia"><div class="avatar">DP</div><div><div class="person-name">Danilo Paniccia</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="marco-petrucci"><div class="avatar">MP</div><div><div class="person-name">Marco Petrucci</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="sinan-qerimaj"><div class="avatar">SQ</div><div><div class="person-name">Sinan Qerimaj</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="filiberto-quintiliani"><div class="avatar">FQ</div><div><div class="person-name">Filiberto Quintiliani</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="federico-romoli"><div class="avatar">FR</div><div><div class="person-name">Federico Romoli</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="enrico-rotondaro"><div class="avatar">ER</div><div><div class="person-name">Enrico Rotondaro</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="francesco-salvuccelli"><div class="avatar">FS</div><div><div class="person-name">Francesco Salvuccelli</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="massimo-tagliaboschi"><div class="avatar">MT</div><div><div class="person-name">Massimo Tagliaboschi</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="marco-tivante"><div class="avatar">MT</div><div><div class="person-name">Marco Tivante</div></div><span class="arrow">›</span></a>
+  <a class="person-link" href="ludovico-vallone"><div class="avatar">LV</div><div><div class="person-name">Ludovico Vallone</div></div><span class="arrow">›</span></a>
+</div>
+<div class="footer">AV/RENT SRL — Audiovisual Hire</div>
+</body>
+</html>
