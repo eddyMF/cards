@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"><meta name="theme-color" content="#fffafa"><title>Daniela Caliciotti — Eventi-X Group Srl</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<html lang="it"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<meta name="theme-color" content="#ffffff">
+<title>Christian Antozzi — Events-X Group</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html,body{background:#fffafa;min-height:100vh;font-family:'Barlow',sans-serif;-webkit-font-smoothing:antialiased}
+html,body{background:#fff;min-height:100vh;font-family:"Barlow",sans-serif;-webkit-font-smoothing:antialiased}
 body{display:flex;flex-direction:column;align-items:center;padding-bottom:3rem}
-.hero{width:100%;background:#fffafa;border-bottom:2px solid #57ff62;padding:2.8rem 1.5rem 2.2rem;display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 60px,rgba(255,255,255,0.03) 60px,rgba(255,255,255,0.03) 61px);pointer-events:none}
-.corner{position:absolute;width:24px;height:24px;border-color:#57ff62;border-style:solid}
-.corner.tl{top:14px;left:14px;border-width:2px 0 0 2px}.corner.tr{top:14px;right:14px;border-width:2px 2px 0 0}
-.corner.bl{bottom:14px;left:14px;border-width:0 0 2px 2px}.corner.br{bottom:14px;right:14px;border-width:0 2px 2px 0}
-.logo-text{font-family:'Barlow Condensed',sans-serif;font-size:64px;font-weight:900;line-height:1;display:flex;align-items:baseline;position:relative;z-index:1}
-.logo-av{color:#57ff62}.logo-slash{color:#57ff62;font-weight:300;margin:0 3px}.logo-rent{color:#000000}.logo-srl{font-size:22px;font-weight:700;color:#57ff62;margin-left:8px;letter-spacing:1px}
-.logo-sub{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:300;letter-spacing:7px;color:rgba(255,255,255,0.4);text-transform:uppercase;margin-top:6px;position:relative;z-index:1}
-.hero-divider{width:60px;height:1px;background:#57ff62;margin-top:1.4rem;opacity:.5;position:relative;z-index:1}
+.hero{width:100%;background:#fff;border-bottom:2px solid #8CB414;padding:2.5rem 1.5rem 2rem;display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden}
+.corner{position:absolute;width:22px;height:22px;border-color:#8CB414;border-style:solid}
+.corner.tl{top:12px;left:12px;border-width:2px 0 0 2px}.corner.tr{top:12px;right:12px;border-width:2px 2px 0 0}
+.corner.bl{bottom:12px;left:12px;border-width:0 0 2px 2px}.corner.br{bottom:12px;right:12px;border-width:0 2px 2px 0}
+.logo-wrap{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:3px}
+.logo-main{font-family:"Barlow Condensed",sans-serif;font-size:52px;font-weight:900;line-height:1;display:flex;align-items:baseline}
+.logo-ev{color:#8CB414}.logo-dash{color:#222;font-weight:300;margin:0 2px}.logo-x{color:#222}
+.logo-tag{font-size:10px;font-weight:500;letter-spacing:5px;color:#999;text-transform:uppercase}
+.logo-group{font-size:9px;font-weight:700;letter-spacing:4px;color:#8CB414;text-transform:uppercase;margin-top:1px}
+.hero-divider{width:50px;height:1px;background:#8CB414;margin-top:1.2rem;opacity:.5;position:relative;z-index:1}
 .person{padding:2rem 1.5rem 1.5rem;text-align:center;width:100%;max-width:480px}
-.person-name{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:700;color:#000000;letter-spacing:2px;text-transform:uppercase}
-.person-role{font-size:12px;font-weight:500;color:#57ff62;letter-spacing:3px;text-transform:uppercase;margin-top:5px}
+.person-name{font-family:"Barlow Condensed",sans-serif;font-size:34px;font-weight:700;color:#111;letter-spacing:2px;text-transform:uppercase}
+.person-role{font-size:12px;font-weight:500;color:#8CB414;letter-spacing:3px;text-transform:uppercase;margin-top:5px}
 .contacts{width:100%;max-width:480px;padding:0 1.25rem;display:flex;flex-direction:column;gap:2px}
-.contact-row{display:flex;align-items:center;gap:14px;padding:15px 18px;background:rgba(255,255,255,0.07);border-left:3px solid #57ff62;text-decoration:none;transition:background .18s}
+.contact-row{display:flex;align-items:center;gap:14px;padding:15px 18px;background:#f7f7f5;border-left:3px solid #8CB414;text-decoration:none;transition:background .18s}
 .contact-row:first-child{border-radius:6px 6px 0 0}.contact-row:last-child{border-radius:0 0 6px 6px}
-.contact-row:hover,.contact-row:active{background:rgba(255,255,255,0.11)}
-.contact-icon{width:38px;height:38px;background:rgba(255,255,255,0.08);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
-.contact-icon i{font-size:18px;color:#57ff62}
-.contact-label{display:block;font-size:10px;font-weight:600;letter-spacing:2px;color:rgba(255,255,255,0.35);text-transform:uppercase}
-.contact-value{display:block;font-size:15px;font-weight:500;color:#000000;margin-top:2px}
-.save-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:calc(100% - 2.5rem);max-width:480px;margin:1.5rem 1.25rem 0;padding:17px;background:#57ff62;color:#fff;font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:3px;text-transform:uppercase;border:none;border-radius:5px;cursor:pointer;text-decoration:none;-webkit-tap-highlight-color:transparent}
+.contact-row:hover,.contact-row:active{background:#f0f0ee}
+.contact-icon{width:38px;height:38px;background:rgba(140,180,20,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.contact-label{display:block;font-size:10px;font-weight:600;letter-spacing:2px;color:#aaa;text-transform:uppercase}
+.contact-value{display:block;font-size:15px;font-weight:500;color:#111;margin-top:2px}
+.save-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:calc(100% - 2.5rem);max-width:480px;margin:1.5rem 1.25rem 0;padding:17px;background:#8CB414;color:#fff;font-family:"Barlow Condensed",sans-serif;font-size:16px;font-weight:700;letter-spacing:3px;text-transform:uppercase;border:none;border-radius:5px;cursor:pointer;text-decoration:none;-webkit-tap-highlight-color:transparent}
 .page-footer{margin-top:2.5rem;text-align:center}
-.page-footer span{font-size:10px;letter-spacing:3px;color:rgba(255,255,255,0.2);text-transform:uppercase;font-family:'Barlow Condensed',sans-serif}
-.toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(80px);background:#57ff62;color:#fff;padding:10px 20px;border-radius:30px;font-family:'Barlow Condensed',sans-serif;font-size:14px;letter-spacing:1px;transition:transform .3s ease;pointer-events:none;z-index:999}
+.page-footer span{font-size:10px;letter-spacing:3px;color:#ccc;text-transform:uppercase;font-family:"Barlow Condensed",sans-serif}
+.toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%) translateY(80px);background:#8CB414;color:#fff;padding:10px 20px;border-radius:30px;font-family:"Barlow Condensed",sans-serif;font-size:14px;transition:transform .3s ease;pointer-events:none;z-index:999}
 .toast.show{transform:translateX(-50%) translateY(0)}
 </style></head><body>
 <div class="hero">
   <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
-  <div class="logo-text"><span class="logo-av">Ex</span><span class="logo-slash">/</span><span class="logo-rent">Eventi-X</span><span class="logo-srl">SRL</span></div>
-  <div class="logo-sub">Events & Television Services</div><div class="hero-divider"></div>
+  <div class="logo-wrap">
+    <div class="logo-main"><span class="logo-ev">events</span><span class="logo-dash">-</span><span class="logo-x">X</span></div>
+    <div class="logo-tag">Events & Television Services</div>
+    <div class="logo-group">group</div>
+  </div>
+  <div class="hero-divider"></div>
 </div>
-<div class="person"><div class="person-name">Daniela Caliciotti</div><div class="person-role">Crew Accommodation & Tender Specialist</div></div>
-<div class="contacts"><a class="contact-row" href="tel:+393470187319"><div class="contact-icon"><i class="ti ti-phone"></i></div><div><span class="contact-label">Cellulare</span><span class="contact-value">+39 3470187319</span></div></a><a class="contact-row" href="tel:+393478301248"><div class="contact-icon"><i class="ti ti-building"></i></div><div><span class="contact-label">Simone Petitti</span><span class="contact-value">+39 347 830 1248</span></div></a><a class="contact-row" href="mailto:info@events-x.it"><div class="contact-icon"><i class="ti ti-mail"></i></div><div><span class="contact-label">Email</span><span class="contact-value">info@events-x.it</span></div></a>
-  <a class="contact-row" href="https://www.eventixgroup.it" target="_blank" rel="noopener">
-    <div class="contact-icon"><i class="ti ti-world"></i></div>
-    <div><span class="contact-label">Sito Web</span><span class="contact-value">https://www.eventixgroup.it</span></div>
+<div class="person"><div class="person-name">Christian Antozzi</div><div class="person-role">Video Specialist</div></div>
+<div class="contacts"><a class="contact-row" href="tel:+393277487630"><div class="contact-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#8CB414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.06 1.18 2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg></div><div><span class="contact-label">Cellulare</span><span class="contact-value">+39 3277487630</span></div></a><a class="contact-row" href="tel:+390775.769483"><div class="contact-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#8CB414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><div><span class="contact-label">Telefono Ufficio</span><span class="contact-value">+39 0775.769483</span></div></a><a class="contact-row" href="mailto:info@events-x.it"><div class="contact-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#8CB414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div><span class="contact-label">Email</span><span class="contact-value">info@events-x.it</span></div></a>
+  <a class="contact-row" href="https://www.events-x.it" target="_blank" rel="noopener">
+    <div class="contact-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#8CB414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+    <div><span class="contact-label">Sito Web</span><span class="contact-value">www.events-x.it</span></div>
   </a>
 </div>
-<a class="save-btn" id="saveBtn" href="#"><i class="ti ti-user-plus"></i> Salva Contatto</a>
-<div class="page-footer"><span>Eventi-X Group Srl &mdash; Events & Television Services</span></div>
+<a class="save-btn" id="saveBtn" href="#">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/><line x1="12" y1="11" x2="12" y2="17"/><line x1="9" y1="14" x2="15" y2="14"/></svg>
+  Salva Contatto
+</a>
+<div class="page-footer"><span>Events-X Group &mdash; Events & Television Services</span></div>
 <div class="toast" id="toast">Contatto salvato!</div>
 <script>
-const v="BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Daniela Caliciotti\r\nN:Caliciotti;Daniela;;;\r\nORG:Eventi-X Group Srl\r\nTITLE:Crew Accommodation & Tender Specialist\r\nTEL;TYPE=CELL:+39 3470187319\r\nTEL;TYPE=WORK:+39 347 830 1248\r\nEMAIL:info@events-x.it\r\nURL:https://www.eventixgroup.it\r\nEND:VCARD";
+const v="BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Christian Antozzi\r\nN:Antozzi;Christian;;;\r\nORG:Events-X Group\r\nTITLE:Video Specialist\r\nTEL;TYPE=CELL:+39 3277487630\r\nTEL;TYPE=WORK:+39 0775.769483\r\nEMAIL:info@events-x.it\r\nURL:https://www.events-x.it\r\nEND:VCARD";
 const blob=new Blob([v],{type:"text/vcard;charset=utf-8"});
 const url=URL.createObjectURL(blob);
 const btn=document.getElementById("saveBtn");
-btn.href=url;btn.download="daniela-caliciotti.vcf";
+btn.href=url;btn.download="christian-antozzi.vcf";
 btn.addEventListener("click",()=>{const t=document.getElementById("toast");t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2500);});
 </script></body></html>
