@@ -2,7 +2,7 @@
 <html lang="it"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
 <meta name="theme-color" content="#ffffff">
-<title>Marco Di Benedetto — Events-X Group</title>
+<title>Paolo Campoli — Events-X Group</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;700;900&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -43,7 +43,7 @@ body{display:flex;flex-direction:column;align-items:center;padding-bottom:3rem}
   </div>
   <div class="hero-divider"></div>
 </div>
-<div class="person"><div class="person-name">Marco Di Benedetto</div><div class="person-role">AV Warehouse Technician</div></div>
+<div class="person"><div class="person-name">Paolo Campoli</div><div class="person-role">Warehouse Operator & AV Rental Operator</div></div>
 <div class="contacts">
   <a class="contact-row" href="https://www.events-x.it" target="_blank" rel="noopener">
     <div class="contact-icon"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#8CB414" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
@@ -57,10 +57,10 @@ body{display:flex;flex-direction:column;align-items:center;padding-bottom:3rem}
 <div class="page-footer"><span>Events-X Group &mdash; Events &amp; Television Services</span></div>
 <div class="toast" id="toast">Contatto salvato!</div>
 <script>
-const v="BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Marco Di Benedetto\r\nN:Di Benedetto;Marco;;;\r\nORG:Events-X Group\r\nTITLE:AV Warehouse Technician\r\nURL:https://www.events-x.it\r\nEND:VCARD";
+const v="BEGIN:VCARD\r\nVERSION:3.0\r\nFN:Paolo Campoli\r\nN:Campoli;Paolo;;;\r\nORG:Events-X Group\r\nTITLE:Warehouse Operator & AV Rental Operator\r\nURL:https://www.events-x.it\r\nEND:VCARD";
 const blob=new Blob([v],{type:"text/vcard;charset=utf-8"});
 const url=URL.createObjectURL(blob);
 const btn=document.getElementById("saveBtn");
-btn.href=url;btn.download="marco-di-benedetto.vcf";
+btn.href=url;btn.download="paolo-campoli.vcf";
 btn.addEventListener("click",()=>{const t=document.getElementById("toast");t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2500);});
 </script></body></html>
